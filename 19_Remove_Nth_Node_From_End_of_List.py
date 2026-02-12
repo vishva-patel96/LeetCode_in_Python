@@ -11,7 +11,7 @@ class Solution:
         # create gap between node and n
         while n > 0 and right:
             right =right.next
-            n -= 1
+            n -= 1 
         while right: 
             right =right.next
             left =left.next
